@@ -9,9 +9,9 @@
   - `git add A.txt B.txt `파일들을 INDEX(Stating 영역)에 등록(폴더도 가능)
   - `git add .`: 현재폴더(`.`) 를 INDEX에 등록 폴더를 등록하여 내부의 모든 파일이 등록됨.
 
-  - `git commit`:INDEX에 있는 파일들을 가지고 commit(history , 기록) 을 남김 ~
+- `git commit` : INDEX에 있는 파일들을 가지고 commit(history, 역사, 기록)을 남김!
 
-  - `git commit -m '메시지'` : 기록을 남기면서 메세지를 남김 (필수)
+  - `git commit -m '메세지'` : 기록을 남기면서, `메세지`를 남김! (필수)
 
 - `git log` : 남겨온 commit들을 확인 
 
@@ -20,7 +20,8 @@
 - `git config`:git 프로그램의 설정을 담당 
 
   ~~~ 
-  
+  git config --global user.email '이메일'
+  git config --global user.name '이름'
   ~~~
 
   - `git config --global --list`:현재 git 프로그램에 설정된 값들을 확인 
