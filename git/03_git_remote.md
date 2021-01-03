@@ -6,7 +6,7 @@
 
   - `git reomte -v`:등록된  Remote주소 확인
 
-    - ~~~
+    - ~~~bash
       origin  https://github.com/Seung-soo-kim/TIL.git (fetch)
       origin  https://github.com/Seung-soo-kim/TIL.git (push)
       ~~~

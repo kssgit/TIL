@@ -77,14 +77,14 @@
 
         -  commit 되돌리기 
            	-  HEAD~1(1단계전 commit으로 되돌리고)
-           	-  `--mixed`: staging 취소, 작업내용은 유지
+               	-  `--mixed`: staging 취소, 작업내용은 유지
 
    - git log 시 내용이 너무 많이 잘리는 경우 
 
      - q로 종료
      - 방향키로 위아래 이동 
 
-3. WD(Working Directory)  변경 내용 취소(삭제)하기, 원상 복구
+3. WD(Working Directory)  변경 내용 취소(삭제)하기/ 원상 복구
 
    - WD 
 
